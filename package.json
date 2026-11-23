@@ -1,0 +1,33 @@
+{
+  "name": "ritmo",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "José Justino Neto",
+  "repository": {
+    "url": "https://www.github.com/josejustino/ritmo",
+    "type": "git"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "dependencies": {
+    "next": "^16.4.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@typescript/native": "npm:typescript@7.0.2",
+    "eslint": "^10.15.0",
+    "eslint-config-next": "^16.4.6",
+    "eslint-config-prettier": "^10.1.8",
+    "typescript": "npm:@typescript/typescript6@6.0.2"
+  }
+}
